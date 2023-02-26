@@ -11,9 +11,6 @@ services:
 
   mongo:
     image: mongo
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=debdeep
-      - MONGO_INITDB_ROOT_PASSWORD=debdeep
     volumes:
       - mongo-db:/data/db
 
